@@ -40,7 +40,7 @@
   "subspecs": [
     {
       "dependencies": {
-        "mopub-ios-sdk/Native Ads": [
+        "mopub-ios-sdk/NativeAds": [
 
         ],
         "mopub-ios-sdk/MoPubSDK Internal": [
@@ -62,14 +62,14 @@
     },
     {
       "dependencies": {
-        "mopub-ios-sdk/Native Ads Internal": [
+        "mopub-ios-sdk/NativeAdsInternal": [
 
         ],
         "mopub-ios-sdk/MoPubSDK": [
 
         ]
       },
-      "name": "Native Ads",
+      "name": "NativeAds",
       "source_files": "MoPubSDK/Native Ads/*.{h,m}"
     },
     {
@@ -78,7 +78,7 @@
 
         ]
       },
-      "name": "Native Ads Internal",
+      "name": "NativeAdsInternal",
       "source_files": "MoPubSDK/Native Ads/Internal/**/*.{h,m}"
     },
     {
